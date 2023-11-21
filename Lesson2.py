@@ -47,10 +47,27 @@ print(chr(57))
 
 print("aa" + "A")
 
-print(some_string.startswith(56))
-print(some_string.endswith(7))
+print(some_string.startswith("56"))
+print(some_string.endswith("7"))
 
-age = 15
-print(age)
+price = 2000
+quantity = 100
+total = price * quantity
+print(total)
+# print(f"{total}")
+insurance_rate = 0.05
+print(insurance_rate)
+ins_per_car = insurance_rate * price
+print(ins_per_car)
+strange_number = 0.1 + 1.2
+print(round(strange_number))
+
+print(101 % 50)
+print(100 // 30)
+print(2**2)
+
+
+
+
 
 
