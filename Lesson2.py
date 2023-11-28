@@ -1,70 +1,27 @@
-name = "Alex "
+print("*" * 40)
+print ("Введідь ваше ім'я: ")
+name = input ()
+print ("Введіть ваш вік: ")
+age = input()
+print("Введіть значення вашої місячної заробітної плати на даний момент: ")
+salary = input()
+leftover = (65 - int(age))
+leftover_month = (leftover * 12)
+total_salary = float(salary) * leftover_month
+dollar_rate = 37.3
+convert_salary = total_salary / dollar_rate
+toyota_price = 31500
+toyota_quantity = (convert_salary / toyota_price)
+full_text = ("Я, " + (name) + ", зможу заробити лише__" + str(round(convert_salary, 2)) + "__доларів, \n що вистачить лише на__" + str(round(toyota_quantity)) + "__тойот, мене це не влаштовує, тому я буду змінювати своє життя\n і буду завзято вивчати програмування")
+print(full_text)
 
-surname = "Clinton"
 
-reaction = "\U00002601"
 
-# full_name = name + surname
-full_name = f"{name}{surname}"
-print(full_name)
-print(reaction)
 
-another_string = "    dfghsrhg  hfjkfhjk"
-no_whitespaces = another_string.strip()
-print(no_whitespaces)
 
-print("*" * 20)
 
-another_string = "5"
 
-# poem = """
-# Як умру то поховайте
-# мене на могилі
-# """
-poem = "Як умру ещ поховайте\n мене на могили"
-print(poem)
-print(poem, another_string, sep="_______", end="***")
 
-another_string = "  \n   \t   dfghsrhg  hfjkfhjk"
-print(another_string)
-
-sity = "odesa"
-sity = sity.strip().title()
-print(sity)
-
-some_string = "56565657"
-print(some_string.isdigit())
-some_string = "565656~"
-proc_string = some_string.strip("~")
-print(proc_string.isdigit())
-
-print(len(some_string))
-
-some_string = "56565657"
-print(some_string.count("6"))
-print(ord("+"))
-print(chr(57))
-
-print("aa" + "A")
-
-print(some_string.startswith("56"))
-print(some_string.endswith("7"))
-
-price = 2000
-quantity = 100
-total = price * quantity
-print(total)
-# print(f"{total}")
-insurance_rate = 0.05
-print(insurance_rate)
-ins_per_car = insurance_rate * price
-print(ins_per_car)
-strange_number = 0.1 + 1.2
-print(round(strange_number))
-
-print(101 % 50)
-print(100 // 30)
-print(2**2)
 
 
 
