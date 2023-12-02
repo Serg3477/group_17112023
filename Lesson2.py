@@ -14,17 +14,3 @@ toyota_price = 31500
 toyota_quantity = (convert_salary / toyota_price)
 full_text = ("Я, " + (name) + ", зможу заробити лише__" + str(round(convert_salary, 2)) + "__доларів, \n що вистачить лише на__" + str(round(toyota_quantity)) + "__тойот, мене це не влаштовує, тому я буду змінювати своє життя\n і буду завзято вивчати програмування")
 print(full_text)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
