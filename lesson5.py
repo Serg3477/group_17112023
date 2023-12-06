@@ -4,7 +4,6 @@ url_carts = "https://dummyjson.com/carts"
 response = requests.get(url = url_carts)
 data_from_net = response.json()
 id_carts = data_from_net['carts']
-
 for key in id_carts:
     if (key['userId'] == 56 ):
         print("Кошик користувача з Id:56\n" + ("*" * 50))
