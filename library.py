@@ -20,8 +20,8 @@ def get_paired_numbers(numbers: list[int]) -> list[int]:
 def get_ipoteka_result(salary_input: int, ipoteka_sum: int) -> bool:
     ipoteka_years = 25
     month_in_year = 12
-    percent_of_month_income = 35
-    salary_input_in_percents = int(salary_input)/100 * percent_of_month_income
+    percent_of_month_income = 0.35
+    salary_input_in_percents = int(salary_input) * percent_of_month_income
     ipoteka_month = int(ipoteka_sum)/ ipoteka_years / month_in_year
     result: bool = salary_input_in_percents > ipoteka_month
     return result
