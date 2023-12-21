@@ -29,3 +29,4 @@ def get_ipoteka_result(salary_input: int, ipoteka_sum: int) -> bool:
 
 
 
+
