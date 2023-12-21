@@ -4,6 +4,6 @@ def converting_numbers_to_string_list(my_list: list) -> list[str]:
     
 
 def inserting_only_integer_list(my_list: list) -> list[int]:
-    converted_list = list(map(int, my_list))
+    converted_list = list(filter(lambda x: type(x) is int, my_list))
     return converted_list
     
