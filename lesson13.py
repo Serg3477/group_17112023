@@ -9,6 +9,7 @@ def create_csv_to_write_logs(func: callable):
         return func(*args)
     return inner
 
+
 @create_csv_to_write_logs
 def input_logs():
     print('В файл "file_logs.csv" записано успішно.')
